@@ -55,7 +55,7 @@ $app = AppFactory::create();
     });
 
 # Change base path
-$app->setBasePath('/api');
+# $app->setBasePath('/api');
 
 # Add middleware for session and CORS
 $app->add(require_once __DIR__ . "/../app/middlewares/CORS.php");
